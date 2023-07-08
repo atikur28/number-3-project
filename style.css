@@ -205,3 +205,40 @@ main{
     text-align: center;
     margin: 50px 0px;
 }
+/* Footer section */
+footer{
+    background-color: #FFF8F3;
+    padding: 130px 400px;
+}
+.footer{
+    display: flex;
+}
+.footer-para{
+    width: 562px;
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+}
+.footer-column{
+    padding-left: 40px ;
+    gap: 200px;
+}
+.footer-header{
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+}
+.footer-icon{
+    padding-right: 24px;
+    padding-top: 5px;
+}
+.form input[type="text"], .form input[type="email"], textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 40px;
+    color: #757575;
+    border-radius: 5px;
+    background-color: #FFF;
+    width: 100%;
+    border: none;
+}
