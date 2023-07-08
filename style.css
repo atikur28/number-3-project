@@ -83,7 +83,7 @@ nav a{
 }
 /* main section started */
 main{
-    margin: 0px 150px;
+    margin: 0px 200px;
 }
 /* About section */
 .about{
@@ -171,4 +171,37 @@ main{
     color: #181818;
     font-size: 35px;
     font-weight: 700;
+}
+.resume-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+.resume-container{
+    display: flex;
+    gap: 70px;
+    margin-left: 130px;
+    margin-top: -40px;
+}
+.resume-item-title{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+}
+.resume-item-info{
+    color: var(--dark-03, #757575);
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: -15px;
+}
+.resume-para{
+    color: var(--dark-03, #757575);
+    font-size: 16px;
+    font-weight: 400;
+    width: 600px;
+    margin-top: -5px;
+}
+.doenload-cv{
+    text-align: center;
+    margin: 50px 0px;
 }
