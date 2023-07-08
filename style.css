@@ -44,6 +44,7 @@ nav a{
     font-size: 20px;
     font-weight: 700px;
     cursor: pointer;
+    margin-right: 30px;
 }
 .btn2{
     background-color: #FFF8F3;
@@ -78,4 +79,42 @@ nav a{
 .para{
     color: #757575;
     font-size: 18px;
+    margin-bottom: 30px;
+}
+/* main section started */
+
+/* About section */
+.about{
+    max-width: 1140px;
+    border-radius: 10px;
+    background-color: #FFF8F3;
+    padding: 130px;
+    margin: 130px 230px;
+}
+.section-title{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.section-description{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+.about-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+.info-title{
+    color: #757575;
+    
+}
+.info-description{
+    color: #474747;
+    margin-top: -15px;
 }
